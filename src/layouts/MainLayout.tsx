@@ -4,6 +4,7 @@ import { useApp } from '../context/AppContext';
 import { Navbar } from '../components/layout/Navbar';
 import { Footer } from '../components/layout/Footer';
 import { FloatingWhatsApp } from '../components/layout/FloatingWhatsApp';
+import { Chatbot } from '../components/layout/Chatbot';
 import { CartRfqDrawer } from '../components/layout/CartRfqDrawer';
 import { SearchModal } from '../components/layout/SearchModal';
 import { MobileDrawer } from '../components/layout/MobileDrawer';
@@ -168,6 +169,9 @@ export const MainLayout: React.FC = () => {
 
       {/* Floating WhatsApp Action */}
       <FloatingWhatsApp lang={lang} />
+      
+      {/* AI Chatbot */}
+      <Chatbot lang={lang} />
 
       {/* Slide-over Cart & RFQ Drawer */}
       <CartRfqDrawer
