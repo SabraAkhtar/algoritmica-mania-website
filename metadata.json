@@ -1,0 +1,6 @@
+{
+  "name": "ALGoritmica MANIA",
+  "description": "Used & Refurbished IT Equipment, Networking, Cybersecurity, IT Support & Business IT Solutions based in Trofa, Portugal.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
